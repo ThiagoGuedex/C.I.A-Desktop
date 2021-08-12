@@ -1,0 +1,23 @@
+{
+  "name": "c.i.a",
+  "version": "1.0.0",
+  "description": "Programa para a projete de 2021",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoGuedex/C.I.A-Desktop.git"
+  },
+  "author": "Thiago Guedes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThiagoGuedex/C.I.A-Desktop/issues"
+  },
+  "homepage": "https://github.com/ThiagoGuedex/C.I.A-Desktop#readme",
+  "devDependencies": {
+    "electron": "^13.1.9"
+  }
+}

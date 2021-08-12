@@ -1,0 +1,103 @@
+main {
+    margin-top: 60px;
+    min-height: 90vh;
+    padding: 1rem;
+}
+
+.Patients_Table {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.Patients_Table h3 {
+    padding: 1rem;
+}
+
+.Patients_Table table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.Patients_Table thead {
+    text-align: left;
+}
+
+th, td {
+    font-size: .9rem;
+    padding: 1rem 1rem;
+}
+
+th {
+    color: #9FA2B4; 
+    font-weight: bold;
+    letter-spacing: 0.2px;
+}
+
+td {
+
+    border-top: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+    background: #f9fafc;
+}
+
+.Patient {
+    display: flex;
+    align-items: center;
+}
+
+.Patient ul {
+    padding-left: 1rem;
+}
+
+.Patient p {
+    font-size: .8rem;
+    font-weight: 600;
+    margin-bottom: .1rem;
+}
+
+.Patient small {
+    font-size: .7rem;
+    color: #C5C7CD;
+}
+
+.Img {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Img.Patient-1,
+.Img.Patient-2,
+.Img.Patient-3,
+.Img.Patient-4 {
+    background-image: url("https://th.bing.com/th?id=OIF.V%2bdRnbdA58UtxHRHQYQT8A&pid=ImgDet&rs=1");
+}
+
+.Badge {
+    padding: .2rem 1rem;
+    border-radius: 20px;
+    color: #fff;
+    font-size: .7rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.Badge.High {
+    background: #F12B2C;
+}
+
+.Badge.Average {
+    background: #FEC400;
+}
+
+.Badge.Low {
+    background: #29CC97;
+}

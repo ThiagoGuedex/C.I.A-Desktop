@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- css -->
+    <link rel="stylesheet" href="public/styles/main.css">
+    <link rel="stylesheet" href="public/styles/partials/header.css">
+    <link rel="stylesheet" href="public/styles/partials/side_bar.css">
+    <link rel="stylesheet" href="public/styles/partials/patients.css">
+
+
+    <meta charset="UTF-8">
+    <title>C.I.A</title>
+</head>
+
+<body>
+    <nav class="SideBar">
+        <ul class="SideBar_List">
+            <li class="SideBar_List_Item SideBar_List_Item-active">
+                <a href="#">
+                    <i class='bx bxs-user-detail Bar_Icon'></i>
+                    <span class="Bar_Name">Pacientes</span>
+                </a>
+            </li>
+            <li class="SideBar_List_Item">
+                <a href="#">
+                    <i class='bx bx-calendar-week Bar_Icon'></i>
+                    <span class="Bar_Name">Agenda</span>
+                </a>
+            </li>
+            <li class="SideBar_List_Item SideBar_List_Item-third">
+                <a href="#">
+                    <i class='bx bxs-book-bookmark Bar_Icon'></i>
+                    <span class="Bar_Name">Artigos</span>
+                </a>
+            </li>
+            <li class="SideBar_List_Item">
+                <a href="#">
+                    <i class='bx bxs-cog Bar_Icon'></i>
+                    <span class="Bar_Name">Configurações</span>
+                </a>
+            </li>
+        </ul>
+    </nav>  
+    
+    <div class="Main_Container">
+        <header>
+            <h2>Pacientes</h2>
+
+            <div class="User_Wrapper">
+                <i class='bx bxs-bell'></i>
+                <i class='bx bxs-chat'></i>
+                <div></div>
+            </div>
+        </header>
+
+        <main>
+            <section class="Patients_Table">
+                    <h3>Todos os pacientes</h3>
+    
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Paciente</th>
+                                <th>Início do tratamento</th>
+                                <th>Fim do tratamento</th>
+                                <th>Prioridade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="Patient">
+                                    <div class="Img Patient-1"></div>
+                                    <ul>
+                                        <li><p>Tom Cruiser</p></li>
+                                        <li><small>Consultado 1 dia atrás</small></li>
+                                    </ul>
+                                </td>
+                                <td>27 de mai. de 2021</td>
+                                <td>27 de mai. de 2022</td>
+                                <td>
+                                    <span class="Badge High">Alta</span> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="Patient">
+                                    <div class="Img Patient-2"></div>
+                                    <ul>
+                                        <li><p>Tom Cruiser</p></li>
+                                        <li><small>Consultado 1 dia atrás</small></li>
+                                    </ul>
+                                </td>
+                                <td>27 de mai. de 2021</td>
+                                <td>27 de mai. de 2022</td>
+                                <td>
+                                    <span class="Badge High">Alta</span> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="Patient">
+                                    <div class="Img Patient-3"></div>
+                                    <ul>
+                                        <li><p>Tom Cruiser</p></li>
+                                        <li><small>Consultado 1 dia atrás</small></li>
+                                    </ul>
+                                </td>
+                                <td>27 de mai. de 2021</td>
+                                <td>27 de mai. de 2022</td>
+                                <td>
+                                    <span class="Badge Average">Média</span> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="Patient">
+                                    <div class="Img Patient-4"></div>
+                                    <ul>
+                                        <li><p>Tom Cruiser</p></li>
+                                        <li><small>Consultado 1 dia atrás</small></li>
+                                    </ul>
+                                </td>
+                                <td>27 de mai. de 2021</td>
+                                <td>27 de mai. de 2022</td>
+                                <td>
+                                    <span class="Badge Low">Baixa</span> 
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </section>
+        </main> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.Main_Container {
+    position: relative;
+    margin-left: 205.15px;
+}
+
+header {
+    position: fixed;
+    left: 240px;
+    top: 0;
+    z-index: 100;
+    width: calc(100% - 240px);
+    height: 60px;
+    padding: 0rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.User_Wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.User_Wrapper i,
+.User_Wrapper img {
+    margin-left: .7rem;
+}
+
+.User_Wrapper div {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://th.bing.com/th/id/R.c8f0999efc0c74343233e36bfda3536f?rik=7zeHEkrDBGv3uw&riu=http%3a%2f%2fwww.messagescollection.com%2fwp-content%2fuploads%2f2015%2f04%2fcute-fb-profile-picture.jpg&ehk=397TigiXLhCWG103WPg27O%2bocK9V%2bgVvwdKrTLgGLG8%3d&risl=&pid=ImgRaw");
+    border-radius: 50%;
+}
+
